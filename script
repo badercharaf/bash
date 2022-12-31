@@ -1,9 +1,5 @@
-num=10
-link="https://gmail.com"
-
-for i in $(seq 1 $num);
+for i in $(seq 1 $ping);
 do
-echo "Ping $i : done!"
+echo "Ping $i: done!"
 response=$(curl --silent $link)
-echo "$response"
 done
