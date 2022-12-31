@@ -1,5 +1,5 @@
 num=10
-link="https://github.com"
+link="https://gmail.com"
 
 for i in $(seq 1 $num);
 do
