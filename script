@@ -1,0 +1,9 @@
+num=10
+link="https://github.com"
+
+for i in $(seq 1 $num);
+do
+echo "Ping $i : done!"
+response=$(curl --silent $link)
+echo "$response"
+done
